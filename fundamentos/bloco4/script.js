@@ -42,26 +42,44 @@
 
 //console.log(resultado());
 
-let leitor = {
-    nome: 'Julia',
-    sobrenome: 'Pessoa',
-    idade: 21,
-    livrosFavoritos: [
-      {
-        titulo: 'O Pior Dia de Todos',
-        autor: 'Daniela Kopsch',
-        editora: 'Tordesilhas',
-      },
-      {
+//let leitor = {
+//    nome: 'Julia',
+//    sobrenome: 'Pessoa',
+//    idade: 21,
+//    livrosFavoritos: [
+//      {
+//        titulo: 'O Pior Dia de Todos',
+//        autor: 'Daniela Kopsch',
+//        editora: 'Tordesilhas',
+//      },
+//      {
     
-        titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-        autor: 'JK Rowling',
-        editora: 'Rocco',
+//        titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//        autor: 'JK Rowling',
+//        editora: 'Rocco',
         
-      },
-    ],
-  };
-let primeiroLivro = leitor.livrosFavoritos[0];
-let segundoLivro = leitor.livrosFavoritos[1];
-let quantosLivros = leitor.livrosFavoritos.length + " livros"
-console.log(leitor["nome"] + " tem " + quantosLivros + " favoritos.")
+//      },
+//    ],
+//  };
+//let primeiroLivro = leitor.livrosFavoritos[0];
+//let segundoLivro = leitor.livrosFavoritos[1];
+//let quantosLivros = leitor.livrosFavoritos.length + " livros"
+//console.log(leitor["nome"] + " tem " + quantosLivros + " favoritos.")
+
+
+
+//function verificaPalindromo(string) {
+//    let array = string.split("");
+//    let reverse = array.reverse();
+//    let reverseString = reverse.join('')
+//    console.log(reverseString)
+//        if (string === reverseString) {  
+//            return true
+//        } else {
+//            return false
+//        }
+
+//}
+
+//console.log(verificaPalindromo("ovo"));
+
