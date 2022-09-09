@@ -5,56 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header-content">
-            <h1 id="header-title">Header da página</h1>
+    <header class="container">
+            <h1 class="display-1">Formulário do exercício 6.2 [AGGT]</h1>
     </header>
     <main>
-        <form id="form" action="">
-            <div id="form-square">
-                <div id="name-div">
-                    <label for="nome" id="name-label">Nome:</label>
-                    <input type="text" name="nome" id="nome" minlength="10" maxlength="40" placeholder="Digite seu nome completo aqui">
+        <form>
+                <div class="container">
+                    <label class="form-label lead" for="nome" >Nome:</label>
+                    <input class="form-control" type="text" name="nome" id="nome">
                 </div>
                 <br>
-                <div id="email-div">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" minlength="10" maxlength="50" placeholder="Digite seu E-mail aqui">
+                <div class="container">
+                    <label class="form-label lead"  for="email">Email:</label>
+                    <input class="form-control" type="email" name="email" id="email">
                 </div>
-                <div id="destino">
-                    <input type="radio" name="destiny" id="city">
-                    <label for="city">Cidade</label>
-                    <input type="radio" name="destiny" id="fields">
-                    <label for="fields">Campo</label>
-                    <input type="radio" name="destiny" id="beach">
-                    <label for="beach">Praia</label>
-                    <input type="radio" name="destiny" id="mountains">
-                    <label for="mountains">Montanha</label>
+                <div class="container">
+                    <input class="form-check-input form-check-inline" type="radio" name="destiny" id="city">
+                    <label class="form-check-label form-check-inline lead" for="city">Cidade</label>
+                    <input class="form-check-input form-check-inline" type="radio" name="destiny" id="fields">
+                    <label class="form-check-label form-check-inline lead" for="fields">Campo</label>
+                    <input class="form-check-input form-check-inline" type="radio" name="destiny" id="beach">
+                    <label class="form-check-label form-check-inline lead" for="beach">Praia</label>
+                    <input class="form-check-input form-check-inline" type="radio" name="destiny" id="mountains">
+                    <label class="form-check-label form-check-inline lead" for="mountains">Montanha</label>
                 </div>
-                <div id="paragrafo">
-                    <p id="texto">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-                    <textarea name="why-coder" id="why-coder" maxlength="500"  placeholder="Escreva aqui sua resposta"></textarea>
+                <div class="form-floating container">
+                    <textarea class="form-control lead" placeholder="Leave a comment here" id="floatingTextarea" maxlength="500"></textarea>
+                    <label for="floatingTextarea">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
                 </div>
-                <div id="input-date">
-                    <label for="date">Data:</label>
+                <div class="container">
+                    <label class="lead" for="date">Data:</label>
                     <input type="date" name="date" id="date">
                 </div>
-                <div id="checkbox-div">
-                    <label for="concordo1">Concordo 1</label>
-                    <input type="checkbox" name="concordo1" id="concordo1">
+                <div class="form-check container">
+                    <input class="form-check-input" type="checkbox" name="concordo1" id="concordo1">
+                    <label class="form-check-label lead" for="concordo1">Concordo 1</label>
                 </div>
-                <div id="checkbox-div1">
-                    <label for="concordo2">Concordo2</label>
-                    <input type="checkbox" name="concordo2" id="concordo2">
+                <div class="form-check container">
+                    <input class="form-check-input" type="checkbox" name="concordo2"id="concordo2">
+                    <label class="form-check-label lead" for="concordo2">Concordo 2</label>
                 </div>
             </div>
-            <div id="div-button">
-                <button type="submit" id="submit">Enviar</button>
-                <button type="reset" id="reset">Apagar</button>
+            <div class="container">
+                <button class="btn btn-primary lead" type="submit" >Enviar</button>
+                <button class="btn btn-warning lead" type="reset">Apagar</button>
             </div>
-            
         </form>
     </main>
 </body>
